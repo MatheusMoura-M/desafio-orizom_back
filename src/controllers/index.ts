@@ -1,3 +1,3 @@
-import { getCityByNameController } from "./get.controller";
+import { getCityByNameController } from "./getCityByName.controller";
 
 export { getCityByNameController };

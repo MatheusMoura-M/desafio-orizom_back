@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { getCityByNameService } from "../services/";
+import { getCityByNameService } from "../services";
 
 export const getCityByNameController = async (req: Request, res: Response) => {
   const nameOfTheCity: string = req.params.city;

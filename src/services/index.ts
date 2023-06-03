@@ -1,3 +1,3 @@
-import { getCityByNameService } from "./get.service";
+import { getCityByNameService } from "./getCityByName.service";
 
 export { getCityByNameService };
