@@ -1,6 +1,7 @@
 export interface iHourForecastDay {
   time: string;
   temp_c: string;
+  temp_f: string;
   condition: {
     text: string;
     icon: string;
@@ -9,6 +10,7 @@ export interface iHourForecastDay {
   wind_kph: string;
   humidity: string;
   windchill_c: string;
+  windchill_f: string;
   will_it_rain: string;
   chance_of_rain: string;
   will_it_snow: string;
@@ -18,8 +20,11 @@ export interface iForecastDays {
   date: string;
   day: {
     maxtemp_c: string;
+    maxtemp_f: string;
     mintemp_c: string;
+    mintemp_f: string;
     avgtemp_c: string;
+    avgtemp_f: string;
     maxwind_kph: string;
     avghumidity: string;
     condition: {
@@ -29,6 +34,8 @@ export interface iForecastDays {
     };
   };
   astro: {
+    sunrise: string;
+    sunset: string;
     moon_phase: string;
   };
   hour: iHourForecastDay[];
@@ -43,12 +50,14 @@ export interface iGetCityByName {
   current: {
     last_updated: string;
     temp_c: string;
+    temp_f: string;
     is_day: string;
     condition: {
       text: string;
       icon: string;
       code: string;
     };
+    humidity: string;
   };
   forecast: {
     forecastday: iForecastDays[];

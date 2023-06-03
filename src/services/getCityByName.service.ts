@@ -13,8 +13,6 @@ export const getCityByNameService = async (city: string) => {
     })
     .catch((err) => console.log(err));
 
-  console.log(resp.forecast);
-
   const respFormated = getWeatherSchema.validate(resp, {
     stripUnknown: true,
   });
