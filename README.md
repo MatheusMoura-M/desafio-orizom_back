@@ -2,7 +2,7 @@
 
 ## 🛠️:cloud: Inicialização
 
-### Para a execucão do projeto siga passo a passo:
+### Para a execução do projeto siga passo a passo:
 
 ### 1️⃣- Faça o clone desse repositório com o seguinte comando:
 
