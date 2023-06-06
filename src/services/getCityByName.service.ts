@@ -1,6 +1,6 @@
 import axios from "axios";
 import { getWeatherSchema } from "../schemas";
-import { AppError } from "../error/appError.error";
+import { AppError } from "../error";
 
 export const getCityByNameService = async (city: string) => {
   const api = axios.create({
