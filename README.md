@@ -1,13 +1,13 @@
-# 💻Your Climate
+# Your Climate 🌤️
 
-## 🛠️:cloud: Inicialização
+## 🛠️: Inicialização
 
 ### Para a execução do projeto siga passo a passo:
 
 ### 1️⃣- Faça o clone desse repositório com o seguinte comando:
 
 ```
-  git clone {link-do-repo} 
+  git clone {link} 
 ``` 
 
 ### 2️⃣- Para instalar as dependências rode:
