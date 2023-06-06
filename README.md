@@ -1,5 +1,15 @@
 # Your Climate 🌤️
 
+## 🔧 Ferramentas / Tools
+
+- [NodeJs](https://nodejs.org/en/)
+- [Express](https://expressjs.com/pt-br/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Axios](https://axios-http.com/docs/intro)
+- [Yup](https://www.npmjs.com/package/yup)
+- [Express-async-errors](https://www.npmjs.com/package/express-async-errors)
+- [Bcryptjs](https://www.npmjs.com/package/bcryptjs)
+
 ## 🛠️: Inicialização
 
 ### Para a execução do projeto siga passo a passo:
