@@ -20,7 +20,7 @@ export const handleError = (
     return res.status(error.status).json({ error: error.message });
   }
 
-  console.log(error);
+  console.log("EEEEERRRR", error);
 
   return res.status(500).json("internal server error");
 };

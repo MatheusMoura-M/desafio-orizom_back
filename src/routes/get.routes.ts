@@ -1,8 +1,12 @@
 import { Router } from "express";
-import { getCityByNameController } from "../controllers/getCityByName.controller";
+import {
+  getCityByNameController,
+  getListOfWeatherConditionController,
+} from "../controllers";
 
-const cityRoutes = Router();
+const getRoutes = Router();
 
-cityRoutes.get("/:city", getCityByNameController);
+getRoutes.get("/weatherConditions", getListOfWeatherConditionController);
+getRoutes.get("/city/:city", getCityByNameController);
 
-export default cityRoutes;
+export default getRoutes;

@@ -37,6 +37,8 @@ export const getWeatherSchema: SchemaOf<iGetCityByName> = yup.object().shape({
             icon: yup.string().required(),
             code: yup.string().required(),
           }),
+          daily_chance_of_snow: yup.number().required(),
+          daily_chance_of_rain: yup.number().required(),
           avghumidity: yup.string().required(),
           maxwind_kph: yup.string().required(),
           avgtemp_f: yup.string().required(),

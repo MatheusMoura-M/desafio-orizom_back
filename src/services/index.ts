@@ -1,3 +1,4 @@
 import { getCityByNameService } from "./getCityByName.service";
+import { getListOfWeatherConditionService } from "./getListOfWeatherCondition.service";
 
-export { getCityByNameService };
+export { getCityByNameService, getListOfWeatherConditionService };

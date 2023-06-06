@@ -1,3 +1,3 @@
-import cityRoutes from "./get.routes";
+import getRoutes from "./get.routes";
 
-export { cityRoutes };
+export { getRoutes };
